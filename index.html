@@ -11,26 +11,26 @@
 
     <section class="banner">
       <header>
-        <h4>BlackCoffee</h4>
           <div class="banner-elements">
             <img src="./assets/header/Burger.png" alt="Menu">
-            <img src="./assets/header/Vector1 banner superior direito.svg" alt="">
+            <h4>BlackCoffee</h4>
+            <img src="./assets/header/Vector1 banner superior direito.svg" alt="Sacola">
             <img src="./assets/header/Banner1.png" alt="banner BlackCoffee">
           </div>
           <div class="banner-sliders">
-            <img src="./assets/icons/Vector 2 seta esquerda.svg">
-            <img src="./assets/icons/Vector 2 seta direita.svg">
-           <img src="./assets/icons/Ellipse 2 banner.png">
+            <img src="./assets/icons/seta esquerda.png" alt="Rolar para esqueda">
+            <img src="./assets/icons/seta esquerda.png" alt="Rolar para direita">
          </div>
+         <div class="banner-arrows">
+          </div>
+          
         <div class="banner-title">
           <p>Preparamos o</p>
           <p>melhor café fresco</p>
           <p>da torra cada dia</p>
-          <p class="estilo">Entregamos em todo Brasil</p>
+          <p class="banner link">Entregamos em todo Brasil</p>
         </div>
-        <div class="banner-arrows">
-          
-        </div>
+        
     </header>
   </section>
 
@@ -52,7 +52,37 @@
       <div class="variety-cards">
         <p>RUANDA UMARAGE NAT</p>
         <img src="./assets/coffee/Embalagem Café.png" alt="Embalagem café">
-        <p span="estilodinheiro">40 R$ 60 R$</p>
+        <p>40 R$ 60 R$</p>
+        <button>
+            <span>+ adicionar ao carrinho</span>
+        </button>
+        <p>RUANDA UMARAGE NAT</p>
+        <img src="./assets/coffee/Embalagem Café.png" alt="Embalagem café">
+        <p>40 R$ 60 R$</p>
+        <button>
+            <span>+ adicionar ao carrinho</span>
+        </button>
+        <p>RUANDA UMARAGE NAT</p>
+        <img src="./assets/coffee/Embalagem Café.png" alt="Embalagem café">
+        <p>40 R$ 60 R$</p>
+        <button>
+            <span>+ adicionar ao carrinho</span>
+        </button>
+        <p>RUANDA UMARAGE NAT</p>
+        <img src="./assets/coffee/Embalagem Café.png" alt="Embalagem café">
+        <p>40 R$ 60 R$</p>
+        <button>
+            <span>+ adicionar ao carrinho</span>
+        </button>
+        <p>RUANDA UMARAGE NAT</p>
+        <img src="./assets/coffee/Embalagem Café.png" alt="Embalagem café">
+        <p>40 R$ 60 R$</p>
+        <button>
+            <span>+ adicionar ao carrinho</span>
+        </button>
+        <p>RUANDA UMARAGE NAT</p>
+        <img src="./assets/coffee/Embalagem Café.png" alt="Embalagem café">
+        <p>40 R$ 60 R$</p>
         <button>
             <span>+ adicionar ao carrinho</span>
         </button><br><br>
@@ -63,31 +93,26 @@
       <div class="benefits">
           <div>
               <img src="./assets/icons/Entrega gratuita.png" alt="Entrega gratuita">
-              <p>Entrega</p>
-              <p>gratuita</p>
+              <p>Entrega gratuita</p>
               <img src="./assets/icons/Pagamento na Entrega.png" alt="Pagamento na Entrega">
-              <p>Pagamento</p>
-              <p>na entrega</p>
+              <p>Pagamento na entrega</p>
               <img src="./assets/icons/Política de Reembolso.png" alt="Política de Reembolso">
-              <p>Política</p>
-              <p>de Reembolso</p>
+              <p>Política de Reembolso</p>
               <img src="./assets/icons/Sistemas de Descontos acumuláveis.png" alt="Sistema de Descontos acumuláveis">
-              <p>Sistema de descontos</p>
-              <p>acumuláveis</p>
+              <p>Sistema de descontos acumuláveis</p>
               <img src="./assets/icons/Presentes por 6 caixas de café.png" alt="Presente por cada 6 caixas de café">
-              <p>Presente por cada</p>
-              <p>6 caixas de café</p>
-            </div>
+              <p>Presente por cada 6 caixas de café</p>
+            </div><br>
         
               <div>
                 <h2>Catálogo de Cafés</h2>
-                <p class="estilo">Mais de 50 tipos de café fresco da torra para</p>
-                <p class="estilo">qualquer método de preparo</p>
+                <p class="banner link">Mais de 50 tipos de café fresco da torra para</p>
+                <p class="banner link">qualquer método de preparo</p>
                 <img src="./assets/banner/Catálogo de Cafés.png" alt="Catalogo de Cafés">
               
                 <h2>Acessórios</h2>
-                <p class="estilo">Todo o que a gente precisa para preparar um</p>
-                <p class="estilo">café saboroso em casa</p>
+                <p class="banner link">Todo o que a gente precisa para preparar um</p>
+                <p class="banner link">café saboroso em casa</p>
                 <img src="./assets/banner/Acessórios.png" alt="Acessórios para seu café">
               </div>
       </div>
@@ -96,8 +121,10 @@
     <section class="find-store">
         <h2>Encontre uma loja</h2>
         <div>
-            <input type="text" placeholder="Escolha a Cidade">
-            <img src="./assets/icons/Vector 3 escolha a cidade.svg" alt="Escolha sua cidade">
+            <select name="select" placeholder="Escolha a Cidade">
+              <option value="1">Rio de Janeiro</option>
+              <option value="2">São Paulo</option>
+            </select>
         </div>
          <div>
           <input type="text" placeholder="Digite o Endereço">
@@ -117,26 +144,28 @@
       <div>
         <h6>INSTITUCIONAL</h6>
         <ul>
-          <li>Quem somos</li>
-          <li>Certificados</li>
-          <li>Nossa produção</li>
-          <li>Programa de parceiros</li>
+          <li><a href="item1">Quem somos</a></li>
+          <li><a href="item2">Certificados</a></li>
+          <li><a href="item3">Nossa produção</a></li>
+          <li><a href="item4">Programas de parceiros</a></li>
         </ul>
       </div>
       <div>
           <h6>PRODUTOS</h6>
           <ul>
-            <li>Café</li>
-            <li>Té</li>
-            <li>Acessórios</li>
-            <li>Ofertas</li>
+            <li><a href="item1">Café</a></li>
+            <li><a href="item2">Té</a></li>
+            <li><a href="item3">Acessórios</a></li>
+            <li><a href="item4">Ofertas</a></li>
           </ul>
       </div>
       <div>
           <h6>Redes Sociais</h6>
-          <img src="./assets/footer/Instagram.png" alt="Instagram">
-          <img src="./assets/footer/Twitter.png" alt="Twitter">
-          <img src="./assets/footer/Facebook.png" alt="Facebook">
+          <ul>
+            <li><img src="./assets/footer/Instagram.png" alt="Instagram"></li>
+            <li><img src="./assets/footer/Twitter.png" alt="Twitter"></li>
+            <li><img src="./assets/footer/Facebook.png" alt="Facebook"></li>
+          </ul>
       </div>
         <p>DESIGNED BY</p>
         <img src="./assets/footer/mentorama.png" alt="Mentorama">
