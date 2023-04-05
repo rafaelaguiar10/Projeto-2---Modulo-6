@@ -28,7 +28,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
 }
+
+header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 
 .banner-elements{
   color:var(--branco);
@@ -429,6 +437,7 @@ main {
   .find-store{
     width: 1600px;
     height: 800px;
+    margin: 0 0 0 0;
     background-color: var(--branco);
   }
 
@@ -469,15 +478,6 @@ main {
     margin-bottom: 24px;
   }
 
-  .seta-cidade{
-    width: 16px;
-    height: 8px;
-    margin-top: 35px;
-    margin-left: -35px;
-    color:var(--preto-footer);
-    position: absolute;
-  }
-
 
   .lupa{
     width: 18px;
@@ -496,9 +496,11 @@ main {
 
   footer{
     width: 1600px;
+    height: 306px;
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--bege-variedade-cafe);
 
   }
